@@ -10,9 +10,12 @@ export default function Home() {
     <>
       <Head>
         <title>Home Page</title>
-        <meta name="description" content="Home Page" key={'description'} />
+        <meta name="description" content="Home Page description" key={'description'} />
         <meta property='og:title' content='Home Page' key={'og:title'} />
         <meta property='og:description' content='Home Page description' key={'og:description'} />
+        <meta property='og:type' content='website' />
+        <meta property='og:url' content='https://test-meta-data.vercel.app/' />
+        <meta property='og:image' content='https://images.squarespace-cdn.com/content/v1/56bf55504c2f85a60a9b9fe5/1635897793784-OD3181KEQJ2AV5QTEEK6/SunflowerSunset.jpg?format=1500w' />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

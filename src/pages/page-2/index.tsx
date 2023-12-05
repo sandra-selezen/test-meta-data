@@ -6,7 +6,7 @@ const Page2 = () => {
     <>
       <Head>
         <title>Page 2</title>
-        <meta name="description" content="Page 2" key={'description'} />
+        <meta name="description" content="Page 2 description" key={'description'} />
         <meta property='og:title' content='Page 2' key={'og:title'} />
         <meta property='og:description' content='Page 2 description' key={'og:description'} />
       </Head>
